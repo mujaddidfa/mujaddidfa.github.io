@@ -1,31 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe</title>
+    <title>Personal Profile - Mujaddid Fathi Atho'illah</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
-
 <body>
-    <div class="content">
-        <div class="info">
-            <h1>Tic Tac Toe</h1>
-            <p>Learn Code with HTML, CSS, and JavaScript</p>
-            <div class="profile">
-                <img src="https://drive.google.com/uc?export=view&id=1walZOlO_x4QuxNcQjerFttEKO1jaC-nx" alt="avatar" class="avatar">
-                <p>Powered By <span>mujaddidfa</span></p>
+    <header>
+        <div class="header colored">
+            <div class="header-text">
+                <h1 class="im">I'm</h1>
+                <h1 class="name"><span>MUJADDID</span> FATHI ATHO'ILLAH</h1>
+                <hr>
+                <p>" i Learn, i Create "</p>
+                <button onclick="changeColor()">Change Color</button>
+            </div>
+            <div class="header-img">
+                <img src="img/image.png" alt="photo">
             </div>
         </div>
-        <div class="game-arena game1"></div>
-        <div class="game-arena game2"></div>
-    </div>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="/ttt.js"></script>
-    <script src="/main.js"></script>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><div class="vl"></div></li>
+                <li><a href="#education">Education</a></li>
+                <li><div class="vl"></div></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><div class="vl"></div></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside class="colored">
+            <div class="photo">
+                <img src="img/photo.png" alt="photo">
+            </div>
+            <div class="description">
+                <div class="profile">
+                    <h2>MUJADDID FATHI ATHO'ILLAH</h2>
+                    <ul>
+                        <li><img src="/icons/briefcase.svg">Student</li>
+                        <li><img src="/icons/home.svg">Yogyakarta, ID</li>
+                        <li><img src="/icons/mail.svg">mujaddid201@gmail.com</li>
+                        <li><img src="/icons/phone.svg">+62 821 8584 2185</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><img src="/icons/check-square.svg">Adobe Photoshop</li>
+                        <li><img src="/icons/check-square.svg">Adobe Illustrator</li>
+                        <li><img src="/icons/check-square.svg">Photography</li>
+                        <li><img src="/icons/check-square.svg">C++</li>
+                        <li><img src="/icons/check-square.svg">HTML</li>
+                        <li><img src="/icons/check-square.svg">CSS</li>
+                        <li><img src="/icons/check-square.svg">JavaScript</li>
+                    </ul>
+                </div>
+                <div class="language">
+                    <h2>Language</h2>
+                    <ul>
+                        <li><img src="/icons/check-square.svg">Indonesia</li>
+                        <li><img src="/icons/check-square.svg">English</li>
+                        <li><img src="/icons/check-square.svg">Arabic</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <article>
+            <section id="about" class="colored">
+                <h2>About Me</h2>
+                <hr>
+                <p>I am an informatics student and a graphic designer. My interests are developing programs, making graphic designs, and photography. I learn and create anything.</p>
+            </section>
+            <section id="education" class="colored">
+                <h2>Education</h2>
+                <hr>
+                <ul>
+                    <li><img src="/icons/book.svg">SDN 050660 Stabat<span>2010 - 2016</span></li>
+                    <li><img src="/icons/book.svg">MTs Muhammadiyah 19 Sidomulyo<span>2016 - 2019</span></li>
+                    <li><img src="/icons/book.svg">MAS Muhammadiyah 09 Sidomulyo<span>2019 - 2022</span></li>
+                    <li><img src="/icons/book.svg">Universitas Ahmad Dahlan<span>2022 - Now</span></li>
+                </ul>
+            </section>
+            <section id="experience" class="colored">
+                <h2>Experience</h2>
+                <hr>
+                <ul>
+                    <li><img src="/icons/briefcase.svg">Designer & Photographer / Ben Jaya Computer & Photocopy<span>2010 - 2022</span></li>
+                    <li><img src="/icons/briefcase.svg">Game Mod Creator / GTAinside.com, GTAind.com<span>2014 - 2015</span></li>
+                    <li><img src="/icons/briefcase.svg">Graphic Designer / Inspirer Generation<span>2019 - 2022</span></li>
+                    <li><img src="/icons/briefcase.svg">Kufi Designer / Freelace<span>2022 - Now</span></li>
+                </ul>
+            </section>
+            <section id="contact" class="colored">
+                <h2>Find Me</h2>
+                <hr>
+                <ul>
+                    <li><a href="https://www.facebook.com/mujaddid.fathiathoillah" target="_blank"><img src="/icons/facebook-fill.svg">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/mujaddidfa/" target="_blank"><img src="/icons/instagram-line.svg">Instagram</a></li>
+                    <li><a href="https://wa.me/6282185842185" target="_blank"><img src="/icons/whatsapp-line.svg">WhatsApp</a></li>
+                    <li><a href="https://www.tiktok.com/@mujaddidfa" target="_blank"><img src="/icons/tiktok-line.svg">TikTok</a></li>
+                    <li><a href="https://www.linkedin.com/in/mujaddid-fathi-atho-illah-219627266/" target="_blank"><img src="/icons/linkedin-fill.svg">LinkedIn</a></li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>© 2023 Mujaddid Fathi Atho'illah</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
