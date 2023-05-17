@@ -10,6 +10,8 @@
 
 html {
     scroll-behavior: smooth;
+    width: fit-content;
+    height: fit-content;
 }
 
 body {
@@ -79,6 +81,7 @@ header .header .header-text button:hover {
 
 header .header .header-img {
     height: 450px;
+    align-self: flex-end;
 }
 
 header .header .header-img img {
@@ -266,6 +269,7 @@ footer p {
     header .header .header-text {
         padding: 50px 0px 50px 50px;
     }
+
     header .header .header-img {
         height: 300px;
         align-self: flex-end;
